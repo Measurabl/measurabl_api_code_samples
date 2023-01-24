@@ -2,7 +2,7 @@
     <img src="https://www.measurabl.com/wp-content/uploads/2019/06/MSR_Logo_Horz_800x200_White-e1564190293652-300x62.png" />
 </div>
 
-#<span style="color: #24324f">Core API Code Examples</span>
+# <span style="color: #24324f">Core API Code Examples</span>
 
 ## Using This Repo
 This is a little collection of example projects we've put together to help you get started with accessing the Measurabl Core API. You can also view our [swagger docs](https://api.measurabl.com/api-docs/index.html?urls.primaryName=Measurabl%20Core%20API%20Docs).
