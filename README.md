@@ -1,6 +1,5 @@
-<div style="background-color: #2DB892; padding: 10px">
-    <img src="https://www.measurabl.com/wp-content/uploads/2019/06/MSR_Logo_Horz_800x200_White-e1564190293652-300x62.png" />
-</div>
+<img src="logo.png" />
+
 
 # <span style="color: #24324f">Core API Code Examples</span>
 
