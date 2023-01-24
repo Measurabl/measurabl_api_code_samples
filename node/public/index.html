@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Measurabl API - Getting Started</title>
+    <link rel="icon" type="image/png" href="https://www.measurabl.com/wp-content/uploads/2019/06/cropped-measurabl_icon-1-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://www.measurabl.com/wp-content/uploads/2019/06/cropped-measurabl_icon-1-192x192.png" sizes="192x192" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  </head>
+  <body>
+    <main>
+        <div id="header">
+            <img class="header-img" src="https://www.measurabl.com/wp-content/uploads/2019/06/MSR_Logo_Horz_800x200_White-e1564190293652-300x62.png" />
+            <a href="https://support.measurabl.com/hc/en-us/community/topics/" target="blank" style="float: right; color: #FFF; text-decoration: none; padding: 10px;">Help</a>
+        </div>
+        <div id="subheader">
+            <h1>You're ready to get started with the Measurabl Core API!</h1>
+            <div class="jumbo-container">
+                <div class="jumbo-text">
+                    <form onsubmit="event.preventDefault();">
+                        <div class="form-field">
+                            <input placeholder="My Token" required="true" style="cursor: pointer;" id="token_field">
+                        </div>
+                        <div class="form-field">
+                        <button class="btn go_button button-5" type="submit">Get my endpoints</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="img-container">
+                    <img class="jumbo-img" src="https://www.measurabl.com/wp-content/uploads/2021/07/measurabl-serves.png" />
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <h2 class="content-header">Endpoints</h2>
+            <p class="content-text">The Core API provides an easy way to programatically interact with your ESG data. Enter your token to see some example endpoints below.</p>
+            <div id="endpoint_staging_area">
+            </div>
+            
+        </div>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
