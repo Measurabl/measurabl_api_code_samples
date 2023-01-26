@@ -29,6 +29,8 @@ This responds with a token, along with its expiration
 }
 ```
 
+You may use this token to authenticate all calls to the core api until its expiration.
+
 # Node {#node}
 
 ## Installing NodeJS
