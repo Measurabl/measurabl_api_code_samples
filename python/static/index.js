@@ -8,6 +8,12 @@ document.addEventListener("DOMContentLoaded", function() {
     let getEndpointsButton = document.getElementsByClassName('go_button')[0];
     let stagingArea = document.getElementById('endpoint_staging_area');
 
+    fetch('/headers')
+    .then(response => response.json())
+    .then((data) => {
+        if (data.Authorization && data.Authorization !== "Bearer [your token here]")  document.getElementById("token_field").value = data.Authorization;
+    });
+
 
     getEndpointsButton.addEventListener("click", function(e) {
         const token = document.getElementById('token_field').value; 

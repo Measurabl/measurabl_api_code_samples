@@ -74,6 +74,10 @@ def getEndpoints():
 
     return endpoints
 
+@app.route('/headers')
+def getHeaders():
+    return headers
+
 def constructUrl(endpoint, portfolioDict):
     match endpoint['name']:
         case 'Portfolios':
