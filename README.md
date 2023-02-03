@@ -8,10 +8,10 @@ This is a little collection of example projects we've put together to help you g
 
 These examples are available in the following languages:
 
-[NodeJS](#node)
-[Python](#python)
+- [NodeJS](#node)
+- [Python](#python)
 
-## Generating an Authentication Token {#credentials}
+<h2 id="credentials"> Generating an Authentication Token</h2>
 
 In order to fully take advantage of these examples, you must be authenticated. 
 
@@ -31,7 +31,7 @@ This responds with a token, along with its expiration
 
 You may use this token to authenticate all calls to the core api until its expiration.
 
-# Node {#node}
+<h1 id="node">Node </h1>
 
 ## Installing NodeJS
 
@@ -62,11 +62,17 @@ The sample app is ready to run after setup. Enter this command in the local copy
 
 `npm start` 
 
-# Python {#python}
+<h1 id="python">Python</h1>
 
 ## Installing Python
 
 You can download the latest version of Python [here](https://wiki.python.org/moin/BeginnersGuide/Download).
+
+## Installing Project Dependencies
+
+Once you’ve installed Python, and pulled down a copy of the source code, you’ll need to install the app’s open-source dependencies. That’s accomplished by running this command in the local copy of the source code:
+
+`cd python && pip install flask`
 
 ## Encoding Credentials
 
