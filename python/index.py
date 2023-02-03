@@ -47,9 +47,10 @@ endpoints = [
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def root():
-    return app.send_static_file('index.html')
+    return app.redirect('/static/index.html', 302)
 
 @app.route('/endpoints')
 def getEndpoints():
